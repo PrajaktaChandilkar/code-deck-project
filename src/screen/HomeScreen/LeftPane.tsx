@@ -3,9 +3,16 @@ import styled from "styled-components";
 
 
 const StyledLeftPane = styled.div`
- background:black;
- color:white;
- height: 100vh;
+    background:black;
+    color:white;
+    height: 100vh;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position: fixed;
+    width: 40%;
 `;
 
 const ContentContainer = styled.div`
